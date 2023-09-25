@@ -2,7 +2,7 @@
 {
     public class Employee 
     {
-        [Key]
+        
         public Guid Guid { get; set; }
         public string NIK {  get; set; }
         public string FirstName { get; set; }
@@ -11,8 +11,7 @@
         public int Gender { get; set; }
         public DateTime HiringDate {  get; set; }
         public string Email { get; set; }
-        public string phoneNumber {  get; set; }
-        [NotMapped]
+        public string phoneNumber {  get; set; }        
         public DateTime CreatedDate { get; set; }
         public DateTime ModifiedDate { get; set; }
         
