@@ -2,7 +2,7 @@
 {
     public class Account 
     {
-        [Key]
+        
         public Guid Guid { get; set; }
         public string Password { get; set; }
         public bool IsDeleted {  get; set; }
