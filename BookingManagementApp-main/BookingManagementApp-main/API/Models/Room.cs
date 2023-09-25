@@ -1,4 +1,4 @@
-﻿namespace BookingManagementApp.Controllers
+﻿﻿namespace API.Models;
 {
     public class Room 
     {
