@@ -2,7 +2,7 @@
 {
     public class AccountRole 
     {
-        [Key]
+        
         public Guid Guid { get; set; }
         
         public Guid AccounGuid { get; set; }
