@@ -1,7 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-
-namespace BookingManagementApp.Controllers
+﻿namespace API.Models;
 {
     public class AccountRole 
     {
